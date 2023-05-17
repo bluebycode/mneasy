@@ -92,3 +92,17 @@ footer {
     padding: 10px 0;
     color: #ffffff;
 }
+
+
+.title {
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 0.5em;
+}
+
+.description {
+    font-size: 1.2em;
+    text-align: center;
+    margin-bottom: 1em;
+}
