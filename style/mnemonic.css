@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+body {
+    font-family: 'Lato', sans-serif;
+    background-color: #1e1e1e;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    position: relative; /* added to position the footer and clear button */
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 400px;
+    width: 100%;
+    padding: 30px; /* increased padding */
+    background-color: #333333;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.2);
+}
+
+.message {
+    padding: 15px;
+}
+
+.row {
+    display: flex;
+    width: 100%;
+    margin-bottom: 30px; /* increased margin */
+}
+
+.row input,
+.row button {
+    margin-right: 10px;
+}
+
+.row button:last-child {
+    margin-right: 0;
+}
+
+textarea {
+    width: 100%;
+    color: #ffffff;
+    background-color: #444444;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 30px; /* increased margin */
+}
+
+button {
+    color: #ffffff;
+    background-color: #0077ff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+button#clear {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+
+button#reload {
+    background-color: transparent;
+    font-size: xx-large;
+}
+
+button:hover {
+    background-color: #0055cc;
+}
+
+button:active {
+    background-color: #003399;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+    color: #ffffff;
+}

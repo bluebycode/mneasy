@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Page Title</title>
+    <link rel="stylesheet" href="style/mnemonic.css">
+</head>
+<body>
+    <script src="dist/main.js"></script>
+    <script src="js/mnemonic.js"></script>
+    <div class="container">
+        <div id="message" class="message"></div>
+        <div class="row">
+            <input type="password" id="password" placeholder="Unlock password">
+            <button id="togglePassword">👁️</button> <!-- eye icon -->
+            <button id="unlock">Unlock</button>
+            <button id="clearAndReload">🔄</button> <!-- reload icon -->
+        </div>
+        <textarea id="mnemonic" rows="4" cols="50"></textarea>
+        <button id="copy">Copy to Clipboard</button>
+        <button id="clear">X</button>
+    </div>
+    <footer>Created by @bluebycode 2023</footer>
+</body>
+</html>
